@@ -20,7 +20,6 @@
     - [Indentation](#indentation)
       - [Blocks](#blocks)
       - [Line Wraps](#line-wraps)
-    - [Line Length](#line-length)
     - [Vertical Spacing](#vertical-spacing)
   - [Brace Style](#brace-style)
   - [Switch Statements](#switch-statements)
@@ -28,18 +27,13 @@
   
 # BBD Group 3 C# Style Guide
 
-This style guide is different from others you may find, because the focus is
-centered on readability for print and the web. We created this style guide to
-keep the code in our tutorials consistent.  
+This style guide is adapted from [The Official kodeco.com C# Style Guide](https://github.com/kodecocodes/c-sharp-style-guide) to keep the code in our projects consistent.  
 
 Our overarching goals are **conciseness**, **readability** and **simplicity**.  
 
 ## Inspiration
 
-This style guide is based on C# conventions. 
-
-
-
+This style guide is based on C# conventions.
 
 ## Nomenclature
 
@@ -258,8 +252,7 @@ IRadialSlider
 ```
 
 ## Spacing
-
-Spacing is especially important in kodeco.com code, as code needs to be easily readable as part of the tutorial. 
+ 
 
 ### Indentation
 
@@ -305,10 +298,6 @@ CoolUiWidget widget =
     someIncrediblyLongExpression(that, reallyWouldNotFit, on, aSingle, line);
 ```
 
-### Line Length
-
-Lines should be no longer than **100** characters long.
-
 ### Vertical Spacing
 
 There should be exactly one blank line between methods to aid in visual clarity 
@@ -319,7 +308,7 @@ several methods.
 
 ## Brace Style
 
-All braces get their own line as it is a C# convention:
+All braces get their own line after method or operation signature:
 
 **AVOID:**
 
