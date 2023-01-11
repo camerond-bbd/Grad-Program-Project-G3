@@ -79,7 +79,7 @@ public int AddTwoNumbers(int one, int two)
 
 ### Fields
 
-All non-static fields are written **camelCase**, this includes **fields** as well.
+All fields taht are non-static should be written in **camelCase**.
 
 For example:
 
@@ -113,13 +113,13 @@ public static int TheAnswer = 42;
 
 All constants should be in **ALL CAPS**
 
-Names of fields should describe the data contain
+Names of fields should be used to describe the data that they contain.
 **Exception:*
 ```For iterable variables in loops (int i = 0)```
 
-No prefixing of fields with any non-standardised naming e.g. int sp_Students()
+Fields should not be prefixed with any non-standardised naming e.g. int sp_Students()
 
-Ensure that variables including types, should be platform agnostic, i.e. int intSum. If the variable requires the data type in its name, refer to computer-based specifications e.g. int int32Sum (More important for comments).
+It needs to be ensured that variables that include types, should be platform agnostic, i.e. int intSum. Should the variable require the data type in its name, refer to computer-based specifications e.g. int int32Sum (More important for comments).
 
 ### Properties
 
