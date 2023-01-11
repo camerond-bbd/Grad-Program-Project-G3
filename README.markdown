@@ -370,14 +370,14 @@ Ensure that all characters used, are within the latin ASCII count, avoid naming 
 
 ```csharp
 string colour = "red";
-string एमएसजी = "नमस्ते दुनिया!"
+string एमएसजी = "नमस्ते दुनिया!";
 ```
 
 **PREFER:**
 
 ```csharp
 string color = "red";
-string msg = "Hello, world"
+string msg = "Hello, world";
 ```
 
 The exception here is `MonoBehaviour` as that's what the class is actually called.
