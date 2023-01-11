@@ -1,6 +1,6 @@
 ## Table of Contents
 
-- [BBD Group 3 C# Style Guide](#BBD Group 3 C# Style Guide)
+- [BBD Group 3 C# Style Guide](#BBD-Group-3-C#-Style-Guide)
   - [Inspiration](#inspiration)
   - [Nomenclature](#nomenclature)
     - [Namespaces](#namespaces)
