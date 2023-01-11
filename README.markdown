@@ -1,6 +1,6 @@
 ## Table of Contents
 
-- [The Official kodeco.com C# Style Guide](#the-official-kodecocom-c-style-guide)
+- [BBD Group 3 C# Style Guide](# BBD Group 3 C# Style Guide)
   - [Inspiration](#inspiration)
   - [Nomenclature](#nomenclature)
     - [Namespaces](#namespaces)
@@ -32,11 +32,11 @@ This style guide is different from others you may find, because the focus is
 centered on readability for print and the web. We created this style guide to
 keep the code in our tutorials consistent.  
 
-Our overarching goals are **conciseness**, **readability** and **simplicity**. Also, this guide is written to keep **Unity** in mind. 
+Our overarching goals are **conciseness**, **readability** and **simplicity**.  
 
 ## Inspiration
 
-This style guide is based on C# and Unity conventions. 
+This style guide is based on C# conventions. 
 
 
 
@@ -49,18 +49,6 @@ On the whole, naming should follow C# standards.
 
 Namespaces are all **PascalCase**, multiple words concatenated together, without hyphens ( - ) or underscores ( \_ ). The exception to this rule are acronyms like GUI or HUD, which can be uppercase:
 
-**AVOID**:
-
-```csharp
-com.kodeco.fpsgame.hud.healthbar
-```
-
-**PREFER**:
-
-```csharp
-Kodeco.FPSGame.HUD.Healthbar
-```
-
 ### Classes & Interfaces
 
 Classes and interfaces are written in **PascalCase**. For example `RadialSlider`. 
@@ -71,7 +59,7 @@ Methods are written in **PascalCase**. For example `DoSomething()`.
 
 ### Fields
 
-All non-static fields are written **camelCase**. Per Unity convention, this includes **public fields** as well.
+All non-static fields are written **camelCase**, this includes ** fields** as well.
 
 For example:
 
