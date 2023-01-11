@@ -92,33 +92,23 @@ public static int TheAnswer = 42;
 ```
 ### Properties
 
-All properties are written in **PascalCase**. For example:
+All properties are written in **PascalCase**. This makes it clear that it is not a field. For example:
 
 ```csharp
-public int PageNumber 
+public int NumberOfStaff 
 {
-    get { return pageNumber; }
+    get { return numStaff; }
     set { pageNumber = value; }
 }
 ```
+is the correct way. ```numberOfStaff``` or ```number_of_staff``` are both incorrect.
 
 ### Parameters
 
-Parameters are written in **camelCase**.
+Parameters are written in **camelCase**. I.e. they do not start with a capital letter, only each subsequent word is indicated with a capital letter. Single words are all lowercase.
+For example: ```thisIsCamelCase```, ```ThisIsNot```.
 
-**AVOID:**
-
-```csharp
-void DoSomething(Vector3 Location)
-```
-
-**PREFER:**
-
-```csharp
-void DoSomething(Vector3 location)
-```
-
-Single character values are to be avoided except for temporary looping variables.
+Parameter names should be as descriptive as other variables, with the exception of loop counters or other extremely trivial variables. For example calling a variable that stores the number of staff ```numStaff``` is acceptable, calling it ```n``` or ```num``` are not as they are not clear enough.
 
 ### Actions
 
