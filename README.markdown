@@ -47,7 +47,9 @@ On the whole, naming should follow C# standards.
 
 ### Namespaces
 
-Namespaces are all **PascalCase**, multiple words concatenated together, without hyphens ( - ) or underscores ( \_ ). The exception to this rule are acronyms like GUI or HUD, which can be uppercase:
+Namespaces are all **PascalCase**, multiple words concatenated together, without hyphens ( - ) or underscores ( \_ ). 
+
+Exception to this rule are acronyms like GUI or HUD, which can be uppercase.
 
 ### Classes & Interfaces
 
@@ -77,7 +79,7 @@ public int AddTwoNumbers(int one, int two)
 
 ### Fields
 
-All non-static fields are written **camelCase**, this includes ** fields** as well.
+All non-static fields are written **camelCase**, this includes **fields** as well.
 
 For example:
 
@@ -108,6 +110,17 @@ Static fields are the exception and should be written in **PascalCase**:
 ```csharp
 public static int TheAnswer = 42;
 ```
+
+All constants should be in **ALL CAPS**
+
+Names of fields should describe the data contain
+**Exception:*
+```For iterable variables in loops (int i = 0)```
+
+No prefixing of fields with any non-standardised naming e.g. int sp_Students()
+
+Ensure that variables including types, should be platform agnostic, i.e. int intSum. If the variable requires the data type in its name, refer to computer-based specifications e.g. int int32Sum (More important for comments).
+
 ### Properties
 
 All properties are written in **PascalCase**. For example:
@@ -119,6 +132,10 @@ public int PageNumber
     set { pageNumber = value; }
 }
 ```
+
+When more control is wanted, avoid built-in get and set, use possible custom gets and sets.
+
+Only use get or set when needed, never use unnecessary abstraction.
 
 ### Parameters
 
