@@ -166,7 +166,9 @@ String url
 findPostById
 ```
 
-No spaces between any operation and its immediate '('
+Only use world standardised abbreviations, no custom ones.
+
+No spaces between any operation and its immediate opening bracket.
 
 **AVOID:**
 
@@ -181,7 +183,7 @@ for()
 while()
 ```
 
-There should spaces between all operators
+There should be spaces between all operators.
 
 **AVOID:**
 
