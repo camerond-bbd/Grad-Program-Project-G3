@@ -25,10 +25,7 @@
   - [Brace Style](#brace-style)
   - [Switch Statements](#switch-statements)
   - [Language](#language)
-  - [Copyright Statement](#copyright-statement)
-  - [Smiley Face](#smiley-face)
-  - [Credits](#credits)
-
+  
 # BBD Group 3 C# Style Guide
 
 This style guide is different from others you may find, because the focus is
