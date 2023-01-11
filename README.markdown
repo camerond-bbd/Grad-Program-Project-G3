@@ -166,6 +166,35 @@ String url
 findPostById
 ```
 
+No spaces between any operation and its immediate '('
+
+**AVOID:**
+
+```csharp
+for ()
+while ()
+```  
+**PREFER:**
+
+```csharp
+for()
+while()
+```
+
+There should spaces between all operators
+
+**AVOID:**
+
+```csharp
+counter=3+5;
+```  
+
+**PREFER:**
+
+```csharp
+counter = 3 + 5;
+```
+
 ## Declarations
 
 ### Access Level Modifiers
