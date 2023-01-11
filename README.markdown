@@ -79,7 +79,7 @@ public int AddTwoNumbers(int one, int two)
 
 ### Fields
 
-All fields taht are non-static should be written in **camelCase**.
+All fields that are non-static should be written in **camelCase**.
 
 For example:
 
