@@ -333,9 +333,9 @@ if (someTest)
 ```
 ## Switch Statements
 
-Switch-statements come with `default` case by default (heh). If the `default` case is never reached, be sure to remove it.
+Always handle the default case of a switch statement
 
-**AVOID:**  
+**PREFER:**  
   
 ```csharp
 switch (variable) 
@@ -349,7 +349,7 @@ switch (variable)
 }
 ```
 
-**PREFER:**  
+**AVOID:**  
   
 ```csharp
 switch (variable) 
@@ -363,18 +363,21 @@ switch (variable)
 
 ## Language
 
-Use US English spelling.
+Use US English spelling. Due to computer autocorrect and language settings
+Ensure that all characters used, are within the latin ASCII count, avoid naming conventions inluding foreign characters.
 
 **AVOID:**
 
 ```csharp
 string colour = "red";
+string एमएसजी = "नमस्ते दुनिया!"
 ```
 
 **PREFER:**
 
 ```csharp
 string color = "red";
+string msg = "Hello, world"
 ```
 
 The exception here is `MonoBehaviour` as that's what the class is actually called.
