@@ -109,7 +109,7 @@ All constants should be in **ALL CAPS**
 
 Names of fields should be used to describe the data that they contain.
 **Exception:*
-```For iterable variables in loops (int i = 0)```
+For iterable variables in loops ```(int i = 0)```
 
 Fields should not be prefixed with any non-standardised naming e.g. int sp_Students()
 
@@ -233,7 +233,7 @@ string twitterHandle;
 
 ### Classes
 
-Exactly one class per source file, although inner classes are encouraged where scoping appropriate.
+Exactly one class per source file, although inner classes are encouraged where scoping is appropriate.
 
 ### Interfaces
 
