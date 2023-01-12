@@ -37,7 +37,7 @@ This style guide is based on C# conventions.
 
 ## Nomenclature
 
-On the whole, naming should follow C# standards.
+On the whole, naming should follow C# standards. Names should be desciptive and not require additional explanation to be understood, with the exception of trivial variables such as loop counters.
 
 ### Namespaces
 
@@ -51,7 +51,7 @@ Classes and interfaces are written in **PascalCase**. For example `RadialSlider`
 
 All Interface class names must be prefixed with a capital 'I', e.g. `IEmployee, IAnimal`
 
-Each Class should represent a singular object and perform a single purpose
+Each Class should perform a single purpose
 
 
 ### Methods
@@ -70,14 +70,6 @@ public int AddTwoNumbers(int one, int two)
   return one + two;
 }
 ```
-**AVOID:**
-
-```csharp
-public int AddTwoNumbers(int one, int two)
-{
-  return one + two;
-  x = DoSomeExtraCalculations();
-}
 
 ### Fields
 
@@ -117,7 +109,7 @@ All constants should be in **ALL CAPS**
 
 Names of fields should be used to describe the data that they contain.
 **Exception:*
-```For iterable variables in loops (int i = 0)```
+For iterable variables in loops ```(int i = 0)```
 
 Fields should not be prefixed with any non-standardised naming e.g. int sp_Students()
 
@@ -241,7 +233,7 @@ string twitterHandle;
 
 ### Classes
 
-Exactly one class per source file, although inner classes are encouraged where scoping appropriate.
+Exactly one class per source file, although inner classes are encouraged where scoping is appropriate.
 
 ### Interfaces
 
